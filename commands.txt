@@ -1,0 +1,41 @@
+Commands            Uses
+---------           ------
+1)git --version   -                        It will check if git is installed in our sysytem or nit.
+2)git --config global user.name sipun123 - it will create a user name for git.
+3)git --cofig global user.email debiparasad248@gmail.com - to configure your email.
+4)git config user.name - It will show the username for git.
+5)cd ..   - It will go to the super directory.
+5)cd debiprasad - it will direct go to the debiprasad directory.
+6)ls - this command is used for showing the directory contents.
+7)mkdir sipun - It will create a new  directory named as sipun.
+8)touch index.html - It will create a new file inside a folder/directory.(But first we have to enter the directory(suppose: cd sipun) in which  we will create the new file.Then apply the touch command ,it will create then.) 
+9)Atom index.html - It will open the index.html  file.
+10)rm index.html - It will remove the index.html file.(But when removing a file we must have to go inside the directory ist in which the file is.)
+11)rmdir directoryname - Ist we have to go to the super directory of this directoryname and then we use this command to remove it.
+12)git init -It  Create an empty Git repository or reinitialize an existing one.
+13)git status -It will show which files we have changed and which files are  in the staging area 
+14)git add file name-It adds only the specified files.
+15)git rm --cached file name - It will remove the file from the stage area.
+16)git add .      -It will add all in the staging area.(in case of more files).
+17)git commit -m "added new files" - It will commit a message "added new files."
+18)git log   - It will show all the commit logs.
+19)git log --oneline   -It shows the ids and the different commits from the  commmit history.
+20)git checkout id - It will go to the id ist then we can update the commit of the id .
+21)git revert id -It will take a specified commit and creates a new commit for the id .
+22)git reset id - It will reset the commits for the id.
+23)git reset id --hard    -It Resets the index and working tree.
+ Any changes to tracked files in the working tree since <commit> are discarded.
+24)git branch branchname  - It will create a new branch .
+25)git branch -a           -It will show all the branches.
+26)git branch-D branchname  - It will delete the branch.
+27)git checkout -b branchname - It will create a new branch and go to the new branch if it is in another branch .
+28)git merge branchname - To merge a branch with another branch(master).
+29)git commit   -It will change Record  to the repository.
+30)git push <remotename><branchname> - It will  push commits made on your local branch to a remote repository.
+31)git remote add origin url      -To add a new remote, we use the git remote add command on the terminal, in the directory your repository is stored at.
+32)git push origin master    -It will Find a reference that matches master in the source repository (most likely, it would find refs/heads/master), and update the same ref (e.g. refs/heads/master) in origin repository with it. 
+                   If master did not exist remotely, it would be created. 
+33)git clone -it will  Clone a repository into a new directory.
+34)git remote -v    -
+35)git pull origin master - git pull origin master will pull changes from the origin remote, master branch and merge them to the local checked-out branch.
+36)git clone url     - clones remote repository into local machine.
